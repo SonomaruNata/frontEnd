@@ -1,0 +1,70 @@
+/* Main container for the sign-in page */
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card styling */
+.sign-in-card {
+  background: #ffffff; /* White card background */
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+  width: 100%;
+  max-width: 400px; /* Make the card smaller */
+  text-align: center;
+}
+
+/* Form input styling */
+.form-input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da; /* Neutral border */
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Form input focus styling */
+.form-input:focus {
+  outline: none;
+  border-color: #441FDB; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(68, 31, 219, 0.2);
+}
+
+/* Sign-in button */
+.sign-in-button {
+  background-color: #3e0525;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.sign-in-button:hover {
+  background-color: #370cc7; /* Slightly darker purple */
+}
+
+/* Footer link */
+.sign-in-footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #6c757d; /* Subtle gray text */
+}
+
+.sign-in-footer a {
+  color: #441FDB; /* Link color */
+  text-decoration: none;
+}
+
+.sign-in-footer a:hover {
+  text-decoration: underline;
+}
