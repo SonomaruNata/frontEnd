@@ -41,7 +41,7 @@ const Footer = () => {
         React.createElement(
           'a',
           {
-            href: 'https://facebook.com',
+            href: 'https://www.facebook.com/profile.php?id=100013127749193',
             target: '_blank',
             rel: 'noopener noreferrer',
             'aria-label': 'Facebook',
@@ -51,7 +51,7 @@ const Footer = () => {
         React.createElement(
           'a',
           {
-            href: 'https://instagram.com',
+            href: 'https://www.instagram.com/raskina582/',
             target: '_blank',
             rel: 'noopener noreferrer',
             'aria-label': 'Instagram',
